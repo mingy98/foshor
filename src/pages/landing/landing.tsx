@@ -10,6 +10,7 @@ import JeezMan from "../../assets/jeezman.mp3";
 import Manhattan from "../../assets/manhattan.mp3";
 import MyPlace from "../../assets/myplace.mp3";
 import SheetFack from "../../assets/sheetfack.mp3";
+import Laugh from "../../assets/laugh.mp3";
 import Yutong from "../../assets/yutong.png";
 
 import { playSound } from "../../utils/audio";
@@ -50,6 +51,10 @@ const Landing = () => {
     {
       file: SheetFack,
       name: "Sheet. Fack."
+    },
+    {
+      file: Laugh,
+      name: "Yutong laugh"
     }
   ]
 
